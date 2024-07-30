@@ -1,0 +1,16 @@
+package aircraftManagement;
+
+public class Passanger {
+    private final String id;
+    private final String name;
+    private final String email;
+    private final String phone;
+
+    public Passanger(String id, String name, String email, String phone) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.phone = phone;
+    }
+    
+}
